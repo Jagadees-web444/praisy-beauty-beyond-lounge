@@ -1,5 +1,6 @@
 export const salonConfig = {
-  // Set the salon's verified WhatsApp number in international format, digits only (e.g. 91 followed by the mobile number).
+  // Customer-provided PRAISY WhatsApp contact: keep this as the single source of truth.
+  // Use international format with country code (91) and digits only.
   // Leave blank only while testing: the booking flow opens WhatsApp's recipient picker.
   whatsappNumber: "916385380876",
   phoneDisplay: "+91 63853 80876",
